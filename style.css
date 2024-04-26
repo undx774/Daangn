@@ -4,6 +4,18 @@
     outline: none;
 }
 
+html {
+    font-size: 62.5%;
+    height: 100;
+}
+
+body {
+    position: relative;
+    color: #212529;
+    font-weight: 400;
+    min-height: 100%;
+}
+
 header {
     background-color: #ffffff;
     color: #212124;
@@ -49,10 +61,74 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
 
 li {
     display: inline-block;
     margin: 0;
+}
+
+.menu-text {
+    line-height: 1.32;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4d5159;
+    font-style: normal;
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+.menu-text:hover {
+    color: #868B94;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    display: block;
+    position: relative;
+    margin-right: 1.2rem;
+}
+
+.search-input {
+    width: 28.8rem;
+    line-height: 1.36;
+    font-size: 1.6rem;
+    background-color: #f2f3f6;
+    box-sizing: border-box;
+    height: 4rem;
+    padding: 0.9rem 1.2rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: #212124;
+}
+
+.chat-button {
+    line-height: 1.3;
+    font-size: 1.6rem;
+    display: block;
+    white-space: nowrap;
+    background-color: #ffffff;
+    color: #212124;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    font-weight: 700;
+    padding: 0.8rem 1.4rem;
+    width: fit-content;
+    border: 1px solid #d1d3d8;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+}
+
+.chat-button:hover {
+    background-color: #f2f3f6;
+    opacity: 0.7;
+}
+
+main {
+    margin-top: 6.4rem;
 }
