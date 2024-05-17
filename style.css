@@ -132,3 +132,58 @@ li {
 main {
     margin-top: 6.4rem;
 }
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    height: 760px;
+    background-color: #fffAE0;
+    margin: 0 auto;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.large {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 73px;
+    margin-bottom: 3.2rem;
+}
+
+.medium {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7c7c7c;
+    line-height: 30px;
+}
+
+.download-container {
+    display: flex;
+    align-items: center;
+    margin-top: 3.2rem;
+}
+
+.download-button {
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #ff6f0f;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 14px 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.download-button:hover {
+    background-color: #f06000;
+}
